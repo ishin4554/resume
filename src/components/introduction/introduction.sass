@@ -1,0 +1,29 @@
+.ixd
+  cursor: pointer
+  text-decoration-line: underline
+  &:active 
+    &::after 
+      position: absolute
+      background: white
+      display: flex
+      justify-content: center
+      align-items: center
+      content: 'A Ha!'
+      color: #4A4A4A
+      font-size: 24px
+      font-weight: 800
+      font-style: oblique
+      left: 50%
+      top: 50%
+      transform: translate(-50%, -50%)
+      border-radius: 50%
+      animation: boom 1s 
+      -webkit-animation-fill-mode: forwards
+
+@keyframes boom
+  0% 
+    width: 10px
+    height: 10px
+  100% 
+    width: 2000px
+    height: 2000px
