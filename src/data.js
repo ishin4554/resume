@@ -7,7 +7,7 @@ export const educations = [
     url: 'https://github.com/Lidemy/mentor-program-3rd',
     title: '第三期畢業生',
     time: '2019.04 - 2019.10',
-    description: pug`p 參加 Huli 開設的程式導師計畫，完成 24 週課程與 2 週的課程專題，學習 #[Highlight 前端框架、優化及後端開發與資料庫設計]，加強 #[Highlight 資安、網路、瀏覽器] 等基礎知識，養成現代工程師足以持續精進自我的自學能力。`,
+    description: pug`p 程式導師計劃由 Huli 創辦，計畫中學習 #[Highlight 前端框架、優化及後端開發與資料庫設計]，加強 #[Highlight 資安、網路、瀏覽器] 等基礎知識，養成現代工程師足以持續精進自我的自學能力。`,
     features: [
       {
         title: '前端',
@@ -15,7 +15,7 @@ export const educations = [
       },
       {
         title: '後端',
-        description: 'Node.js(Express), PHP(Code Igniter), SQL DB(MySQL), NoSQL DB(Mongo), RESTiful API Design'
+        description: 'Node.js(Express), PHP(CodeIgniter), SQL DB(MySQL), NoSQL DB(Mongo), RESTiful API Design'
       },
       {
         title: '視覺',
@@ -97,8 +97,8 @@ export const projects = [
       "以 Markdown 格式匯出筆記，同步到其他筆記服務。"
     ],
     techs: [
-      pug`li 前端使用 #[Highlight React] 框架，搭配 #[Highlight Redux] 來做狀態管理，並用 #[Highlight Redux Observable] 來處理非同步的 Action。`,
-      pug`li 後端使用 #[Highlight Express] 框架，搭配 #[Highlight Mongoose ODM] 來存取 Mongo DB，並設計 #[Highlight RESTiful API] 以 #[Highlight jwt] 來做認證與前端溝通。`,
+      pug`li 前端使用 #[Highlight React] 搭配 #[Highlight Redux] 來做狀態管理，並用 #[Highlight Redux Observable] 來處理非同步的 Action。`,
+      pug`li 後端使用 #[Highlight Express] 搭配 #[Highlight Mongoose ODM] 來存取 Mongo DB，並設計 #[Highlight RESTiful API] 以 #[Highlight jwt] 來做認證與前端溝通。`,
       pug`li 測試使用 #[Highlight JEST] 做單元測試並以 TDD 的方式進行開發，搭配 #[Highlight ESLint] 確保程式碼品質。`
     ],
     demo: 'https://vnotenow.herokuapp.com/#/',
@@ -115,7 +115,7 @@ export const projects = [
     techs: [
       pug`li 利用 #[Highlight Canvas] 開發 Landing 效果，過場搭配 #[Highlight React CSS Transition] 來實現，並用 #[Highlight svg] 來做滑鼠互動。`, 
       pug`li 前端使用 #[Highlight React], #[Highlight Redux], #[Highlight Redux Observable] 與 #[Highlight React-Router] 進行開發。`,
-      pug`li 後端使用 #[Highlight Express] 搭配 #[Highlight Sequelize ODM] 來存取 MySQL DB。`,
+      pug`li 後端使用 #[Highlight Express] 搭配 #[Highlight Sequelize ORM] 來存取 MySQL DB。`,
     ],
     demo: 'https://www.minw.info',
     repo: 'https://github.com/ishin4554/ISHIN'
@@ -124,7 +124,7 @@ export const projects = [
     title: 'R30:Challenge',
     description: '網站觀念闖關遊戲',
     features: [
-      "標記候選人數據進行留言討論政治議題",
+      "以解開藏在網站之中的 Query 為闖關條件的挑戰遊戲",
       "MUD 文字遊戲風格介面。"
     ],
     techs: [

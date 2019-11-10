@@ -42,8 +42,8 @@ const Introduction = props => pug`
   Section
     Intro
       h3(className='intro__title') Min Wei
-      p(className='intro__slogan') Hi！我是魏敏，一個從 UX 出發的 Front End Developer
-      p(className='intro__info') 2019 年從程式導師計畫與清大服務科學研究所畢業，精進於前端開發與使用者研究，期許在兼顧使用者體驗的產品同時，打造體驗中的 #[span(className='ixd') Amazing Moment]
+      p(className='intro__slogan') 從 UX 出發的 Front End Developer
+      p(className='intro__info') 嗨，我是魏敏，2019 年從程式導師計畫與清大服務科學研究所畢業，精進於前端開發與使用者研究，期許在兼顧使用者體驗的產品同時，打造體驗中的 #[span(className='ixd') Amazing Moment]
       div(className='intro__contact')
         ul
           li 

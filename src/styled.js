@@ -39,10 +39,6 @@ export const Block = styled.div`
     padding: 0px
     list-style: none
   }
-  &:hover {
-    padding-left: 20px 
-    border-left: 2px solid ${color.primary}
-  }
   .link {
     margin-top: 15px
   }
