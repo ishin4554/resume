@@ -74,6 +74,9 @@ export const Title = styled.div`
     &:hover {
       color: ${color.primary}
     }
+    &::before {
+      content: '# '
+    }
   }
   p {
     display: inline-block
@@ -97,6 +100,9 @@ export const Description = styled.p`
   margin: 0
   p {
     margin-bottom: 0
+    a strong {
+      cursor: pointer
+    }
   }
 `
 

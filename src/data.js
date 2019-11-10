@@ -7,7 +7,7 @@ export const educations = [
     url: 'https://github.com/Lidemy/mentor-program-3rd',
     title: '第三期畢業生',
     time: '2019.04 - 2019.10',
-    description: pug`p 完成 24 週課程與 2 週的課程專題，並學習 #[Highlight 前端框架、優化及後端開發與資料庫設計]，加強 #[Highlight 資安、網路、瀏覽器] 等基礎知識，養成現代工程師足以持續精進自我的自學能力。`,
+    description: pug`p 參加 Huli 開設的程式導師計畫，完成 24 週課程與 2 週的課程專題，學習 #[Highlight 前端框架、優化及後端開發與資料庫設計]，加強 #[Highlight 資安、網路、瀏覽器] 等基礎知識，養成現代工程師足以持續精進自我的自學能力。`,
     features: [
       {
         title: '前端',
@@ -30,9 +30,13 @@ export const educations = [
   {
     name: '清大服務科學研究所',
     url: 'https://www.iss.nthu.edu.tw/',
-    title: '創新設計與商業分析模組',
+    title: '服務創新與設計模組與商業分析模組',
     time: '2017.09 - 2019.06',
-    description: pug`p 學習使用者研究中質化與量化等研究工具，並與 #[Highlight 巨城]、#[Highlight 果物配] 以及 #[Highlight 新竹縣政府] 合作以參與式設計執行服務創新專案。`,
+    description: pug`p 學習使用者研究中質化與量化等研究工具，擔任 
+      a(href='https://medium.com/@minw/%E6%80%9D%E8%80%83%E8%A8%AD%E8%A8%88%E6%80%9D%E8%80%83%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E4%B8%80%E6%AC%A1%E8%B3%AA%E5%95%8F%E7%9A%84%E6%97%85%E7%A8%8B-d8bdbd27faa0' target='_blank') #[Highlight 果物配合作設計工作坊] 
+      | 設計負責人，與 #[Highlight 巨城] 以及 #[Highlight 新竹縣政府] 合作參與服務創新專案，並開發 
+      a(href='https://datavis-f88e5.firebaseapp.com/' target='_blank') #[Highlight 候選人專頁發言主題數據視覺化網站] 
+      | 。`,
     features: [
       {
         title: '探索性研究',
@@ -56,7 +60,7 @@ export const works = [
     url: 'http://www.scenariolab.com.tw/',
     title: '使用者研究員 | 實習',
     time: '2018.07 - 2018.09',
-    description: '協助美思醫電作使用者研究與服務設計，執行包含醫療、保全產業的專家訪談 ，與病患的使用者訪談，並舉辦服務設計教育訓練工作坊，為公司導入服務設計觀念。',
+    description: '協助醫電產業客戶作使用者研究與服務設計，執行包含醫療、保全產業的專家訪談 ，與病患的使用者訪談，並舉辦服務設計教育訓練工作坊，為公司導入服務設計觀念。',
   },
   {
     name: 'Sketch Share 社繪學',
@@ -71,26 +75,26 @@ export const works = [
     url: 'http://monoame.com/#/',
     title: '網頁設計 | Freelance',
     time: ' 2015 -',
-    description: '協助設計活動網頁與網頁的動態設計，並制定 Wireframe 與撰寫文件，並結合動態互動創造令人印象深刻的品牌印象。',
+    description: '協助設計活動網頁與網頁的動態，並制定 Wireframe 與撰寫文件，結合動態互動創造令人印象深刻的品牌印象。',
   },
   {
     name: 'Hahow 好學校',
     url: 'https://hahow.in/',
     title: '專案開發 | 實習',
     time: '2015.02 - 2016.02',
-    description: '於課程募資平台中參與開發新的課程並接觸第一線的老師，像是：圖文不符資訊設計、動態網頁互動設計等課程，協助老師開課。',
+    description: '參與開發圖文不符資訊設計、動態網頁互動設計等課程，協助課程老師設計與執行課程計畫。',
   }
 ]
 
 export const projects = [
   {
     title: 'VNote',
-    description: '針對線上影片的雲端筆記服務',
+    description: '線上課程影片的雲端筆記服務',
     features: [
-      "以影片時間為基礎留言，可以分類、搜尋、留下筆記，並留下子留言跟按讚",
-      "管理課程影片，編輯標題跟敘述，並設定完成、未完成課程",
-      "共享課程筆記給其他人，透過 email 新增共享人",
-      "以 markdown 格式匯出筆記，同步到其他筆記服務"
+      "跟隨課程影片時間筆記，支援分類、搜尋、留下筆記，及回覆留言跟按讚等社群功能。",
+      "管理課程影片，編輯標題跟敘述，並設定完成、未完成課程。",
+      "共享課程筆記給其他人，透過 Email 新增共享人。",
+      "以 Markdown 格式匯出筆記，同步到其他筆記服務。"
     ],
     techs: [
       pug`li 前端使用 #[Highlight React] 框架，搭配 #[Highlight Redux] 來做狀態管理，並用 #[Highlight Redux Observable] 來處理非同步的 Action。`,
@@ -104,12 +108,12 @@ export const projects = [
     title: 'ISHIN',
     description: '個人作品集特效型網站',
     features: [
-      "支援 CRUD 的文章系統，以 tag 為基礎做文章分類",
-      "支持 markdown 語法發佈文章",
-      "landing 特效畫面與滑鼠互動效果",
+      "支援 CRUD 的文章系統，以 tag 為基礎做文章分類。",
+      "支持 Markdown 語法發佈文章。",
+      "Landing 特效畫面與滑鼠互動效果。",
     ],
     techs: [
-      pug`li 利用 #[Highlight Canvas] 開發 Landing 效果，過場搭配 #[Highlight React CSS Transition] 來實現，並用 #[Highlight svg] 來做滑鼠互動，`, 
+      pug`li 利用 #[Highlight Canvas] 開發 Landing 效果，過場搭配 #[Highlight React CSS Transition] 來實現，並用 #[Highlight svg] 來做滑鼠互動。`, 
       pug`li 前端使用 #[Highlight React], #[Highlight Redux], #[Highlight Redux Observable] 與 #[Highlight React-Router] 進行開發。`,
       pug`li 後端使用 #[Highlight Express] 搭配 #[Highlight Sequelize ODM] 來存取 MySQL DB。`,
     ],
@@ -120,8 +124,8 @@ export const projects = [
     title: 'R30:Challenge',
     description: '網站觀念闖關遊戲',
     features: [
-      "以 query 作為闖關條件的網站遊戲",
-      "MUD 文字遊戲風格介面"
+      "標記候選人數據進行留言討論政治議題",
+      "MUD 文字遊戲風格介面。"
     ],
     techs: [
       pug`li 利用 #[Highlight jQuery] 與 #[Highlight SASS] 開發網站互動效果。`, 
