@@ -117,7 +117,7 @@ export const projects = [
     repo: 'https://github.com/ishin4554/ISHIN'
   },
   {
-    title: 'MTR3:Challenge',
+    title: 'R30:Challenge',
     description: '網站觀念闖關遊戲',
     features: [
       "以 query 作為闖關條件的網站遊戲",

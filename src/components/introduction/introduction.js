@@ -25,11 +25,12 @@ const Intro = styled.div`
   .intro__slogan {
     margin: 0
     color: black
-    font-weight: 500
+    font-weight: 800
   }
   .intro__contact ul {
     list-style: none
     display: flex
+    flex-wrap: wrap
     padding: 0
     li {
       margin-right: 10px
@@ -50,7 +51,7 @@ const Introduction = props => pug`
           li
             Link(href='https://github.com/ishin4554' target='_blank') Github
           li 
-            Link(href='' target='_blank') Resume(pdf)
+            Link(href='./resume.pdf' target='_blank') Resume(pdf)
 `
 
 export default Introduction;

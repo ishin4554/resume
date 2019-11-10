@@ -86,9 +86,9 @@ export const Tag = styled.h2`
   font-size: 14px
   background: ${color.text}
   display: inline-block
-  padding: 5px 10px
+  padding: 2px 10px
   margin: 0
-  margin-top: 10px
+  margin: 10px 0
   color: white
 `
 
