@@ -93,9 +93,9 @@ export const projects = [
       "以 markdown 格式匯出筆記，同步到其他筆記服務"
     ],
     techs: [
-      pug`li 前端使用 #[Highlight React] 框架，使用 #[Highlight Redux] 來做狀態管理。並用 #[Highlight Redux Observable] 來處理非同步的 Action。`,
-      pug`li 後端使用 #[Highlight Express] 框架，並用 #[Highlight Mongoose ODM] 來存取 Mongo DB，並設計 #[Highlight RESTiful API] 以 #[Highlight jwt] 來做認證與前端溝通，並部署在 Heroku 上。`,
-      pug`li 測試使用 #[Highlight JEST] 做單元測試並以 TDD 的方式進行開發，用 #[Highlight ESLint] 確保程式碼品質。`
+      pug`li 前端使用 #[Highlight React] 框架，搭配 #[Highlight Redux] 來做狀態管理，並用 #[Highlight Redux Observable] 來處理非同步的 Action。`,
+      pug`li 後端使用 #[Highlight Express] 框架，搭配 #[Highlight Mongoose ODM] 來存取 Mongo DB，並設計 #[Highlight RESTiful API] 以 #[Highlight jwt] 來做認證與前端溝通。`,
+      pug`li 測試使用 #[Highlight JEST] 做單元測試並以 TDD 的方式進行開發，搭配 #[Highlight ESLint] 確保程式碼品質。`
     ],
     demo: 'https://vnotenow.herokuapp.com/#/',
     repo: 'https://github.com/ishin4554/VNote'
@@ -109,9 +109,9 @@ export const projects = [
       "landing 特效畫面與滑鼠互動效果",
     ],
     techs: [
-      pug`li 利用 #[Highlight Canvas] 開發 landing 效果，過場使用 #[Highlight react csstransition group] 開發，並用 #[Highlight svg] 來做滑鼠互動，`, 
+      pug`li 利用 #[Highlight Canvas] 開發 Landing 效果，過場搭配 #[Highlight React CSS Transition] 來實現，並用 #[Highlight svg] 來做滑鼠互動，`, 
       pug`li 前端使用 #[Highlight React], #[Highlight Redux], #[Highlight Redux Observable] 與 #[Highlight React-Router] 進行開發。`,
-      pug`li 後端使用 #[Highlight Express] 框架，並用 #[Highlight Sequelize ODM] 來存取 MySQL DB。`,
+      pug`li 後端使用 #[Highlight Express] 搭配 #[Highlight Sequelize ODM] 來存取 MySQL DB。`,
     ],
     demo: 'https://www.minw.info',
     repo: 'https://github.com/ishin4554/ISHIN'
