@@ -15,8 +15,8 @@ const Project = props => pug`
     ul(className='project')
       ${props.project.techs.map(tech => tech)}
     .link
-      Button(href=${props.project.demo}) demo
-      Button(href=${props.project.repo}) github repo
+      Button(href=${props.project.demo} target='_blank') demo
+      Button(href=${props.project.repo} target='_blank') github repo
 `
 
 export default Project;

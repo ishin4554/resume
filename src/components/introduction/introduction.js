@@ -7,18 +7,23 @@ import { Section, Link, font, color } from '../../styled';
 const Intro = styled.div`
   overflow: hidden
   position: relative
-  padding: 30px 30px 10px 30px
+  padding: 30px
   background: ${color.primary}
   color: ${color.text}
   letter-spacing: 1px
   line-height: 28px
   margin-bottom: 20px
+  p {
+    margin: 0
+  }
   .intro__title {
     color: black
-    font-weight: 800
+    font-weight: 900
+    font-size: ${font.size.title}
     font-style: oblique
   }
   .intro__slogan {
+    margin: 0
     color: black
     font-weight: 500
   }
@@ -41,11 +46,11 @@ const Introduction = props => pug`
       div(className='intro__contact')
         ul
           li 
-            Link(href='mailto:minw.contacts@gmail.com') minw.contacts@gmail.com
+            Link(href='mailto:minw.contacts@gmail.com' target='_blank') minw.contacts@gmail.com
           li
-            Link(href='https://github.com/ishin4554') Github
+            Link(href='https://github.com/ishin4554' target='_blank') Github
           li 
-            Link(href='') Resume(pdf)
+            Link(href='' target='_blank') Resume(pdf)
 `
 
 export default Introduction;

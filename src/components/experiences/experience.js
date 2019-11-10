@@ -6,9 +6,9 @@ const Experience = props => pug`
   Block
     div(className='experience__info')
       Title(color='black' isProject='true') 
-        a(href=${props.work.url}) ${props.work.name} 
+        a(href=${props.work.url} target='_blank') ${props.work.name} 
         p ${props.work.time}
-      strong ${props.work.title} 
+      p.title ${props.work.title} 
       Description ${props.work.description}
     if props.work.features 
       ul
