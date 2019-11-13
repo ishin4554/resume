@@ -117,7 +117,7 @@ export const projects = [
       pug`li 前端使用 #[Highlight React], #[Highlight Redux], #[Highlight Redux Observable] 與 #[Highlight React-Router] 進行開發。`,
       pug`li 後端使用 #[Highlight Express] 搭配 #[Highlight Sequelize ORM] 來存取 MySQL DB。`,
     ],
-    demo: 'https://www.minw.info',
+    demo: 'https://mtrblog.herokuapp.com/#/',
     repo: 'https://github.com/ishin4554/ISHIN'
   },
   {
